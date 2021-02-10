@@ -32,7 +32,7 @@ We use version 2.2.4 of spacy and its small english model `en-core-web-sm`.
 - SQuAD 2.0 
    
    Second version of Stanford Question Answering Dataset. 
-     [ https://www.aclweb. org/anthology/P18-2124]
+     https://www.aclweb.org/anthology/P18-2124
 - SED
   
    Student Essay Dataset
