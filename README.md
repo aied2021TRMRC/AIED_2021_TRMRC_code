@@ -46,7 +46,7 @@ We use version 2.2.4 of spacy and its small english model `en-core-web-sm`.
 
 ### Train BERT, BART, RoBERTa, ALBERT
 
-Run `train.sh` in directories named by each models.
+Run `train.sh` in directories named by each model.
 Taking training BERT as an example, you can finetune a BERT model with specific data by runing command showing below:
 
 ```
