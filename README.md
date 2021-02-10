@@ -1,6 +1,6 @@
 # AIED_2021_TRMRC_code
 
-In this repo, we publish our code of experiment in paper: Automatic Task Requirements Writing Evaluation With Feedback via Machine Reading Comprehension
+In this repo, we publish our code of experiments in paper: Automatic Task Requirements Writing Evaluation With Feedback via Machine Reading Comprehension
 
 We explored many advanced MRC methods, such as BERT, BART, RoBERTa and SAN etc. , to address automatic response locating problem in task requirement questions.
 
