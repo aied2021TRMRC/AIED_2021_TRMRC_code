@@ -41,9 +41,35 @@ We use version 2.2.4 of spacy and its small english model `en-core-web-sm`.
 
    Dataset consists of SED and SQuAD 2.0
 
-## Train and Evaluation
+## Training and Evaluation
 
- ### BERT, BART, RoBERTa, ALBERT
+
+#### Train BERT, BART, RoBERTa, ALBERT
+
+Run `train.sh` in directories named by each models.
+Taking training BERT as an example:
+
+```
+sh ./bert/train.sh
+```
+After training, a fine-tuned model could be found at `./bert/models/`.
+
+### Evaluating: BERT, BART, RoBERTa, ALBERT 
+
+ Taking BERT as an example:
+
+```shell
+ python ./bert/bert_performance_test.py -f ./data/SED/test.json
+```
+
+#### Train and evaluating SAN and Ours
+
+   See README.md in `./SAN` and `./ours`.
+
+
+
+
+
 
 
 
