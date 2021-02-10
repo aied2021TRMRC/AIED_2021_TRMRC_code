@@ -34,8 +34,8 @@ We use version 2.2.4 of spacy and its small english model `en-core-web-sm`.
    Second version of Stanford Question Answering Dataset. 
      https://www.aclweb.org/anthology/P18-2124
 - SED
-  
-   Student Essay Dataset
+   
+   Student Essay Dataset， educational domain dataset, has the same structure with SQuAD 2.0.
 
 - SQuAD 2.0 & SED 
 
@@ -47,7 +47,7 @@ We use version 2.2.4 of spacy and its small english model `en-core-web-sm`.
 ### Train BERT, BART, RoBERTa, ALBERT
 
 Run `train.sh` in directories named by each models.
-Taking training BERT as an example:
+Taking training BERT as an example, you can finetune a BERT model with specific data by runing command showing below:
 
 ```
 sh ./bert/train.sh
@@ -56,11 +56,12 @@ After training, a fine-tuned model could be found at `./bert/models/`.
 
 ### Evaluating: BERT, BART, RoBERTa, ALBERT 
 
- Taking BERT as an example:
+ Taking BERT as an example, running the following code:
 
 ```shell
  python ./bert/bert_performance_test.py -f ./data/SED/test.json
 ```
+By default, the above code will evaluate model stored in `./bert/models` dir.
 
 ### Train and evaluating SAN and Ours
 
