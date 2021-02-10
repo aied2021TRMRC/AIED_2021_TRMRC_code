@@ -1,0 +1,6 @@
+pandas
+spacy==2.0.12
+torch==0.4.1
+tqdm
+colorlog
+allennlp==0.7.1
