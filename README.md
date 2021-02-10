@@ -44,7 +44,7 @@ We use version 2.2.4 of spacy and its small english model `en-core-web-sm`.
 ## Training and Evaluation
 
 
-#### Train BERT, BART, RoBERTa, ALBERT
+### Train BERT, BART, RoBERTa, ALBERT
 
 Run `train.sh` in directories named by each models.
 Taking training BERT as an example:
@@ -62,7 +62,7 @@ After training, a fine-tuned model could be found at `./bert/models/`.
  python ./bert/bert_performance_test.py -f ./data/SED/test.json
 ```
 
-#### Train and evaluating SAN and Ours
+### Train and evaluating SAN and Ours
 
    See README.md in `./SAN` and `./ours`.
 
