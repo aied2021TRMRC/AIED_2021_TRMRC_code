@@ -4,6 +4,8 @@ In this repo, we publish our code of experiments in paper: Automatic Task Requir
 
 We explored many advanced MRC methods, such as BERT, BART, RoBERTa and SAN etc. , to address automatic response locating problem in task requirement questions.
 
+We use SAN code from [this work](https://github.com/kevinduh/san_mrc) and Retro-Reader code from this [work](https://github.com/cooelf/AwesomeMRC).
+
 ## requirements 
 
  
@@ -66,7 +68,6 @@ By default, the above code will evaluate model stored in `./bert/models` dir.
 ### Train and evaluating SAN and Ours
 
    See README.md in `./SAN` and `./ours`.
-
 
 
 
